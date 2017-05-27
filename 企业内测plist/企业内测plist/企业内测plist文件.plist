@@ -29,7 +29,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>此处填写内测应用的bundle identifier</string>
+				<string>此处填写内测应用的bundle identifier(必填)</string>
 				<key>bundle-version</key>
 				<string>此处填写内测应用版本号(必填)</string>
 				<key>kind</key>
