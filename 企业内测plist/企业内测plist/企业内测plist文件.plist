@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>此处填写内测应用.ipa 文件包的服务端url路径(必填)</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>url</key>
+					<string>此处填写内测应用下载时小图显示的图片url(非必填)</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>full-size-image</string>
+					<key>url</key>
+					<string>此处填写内测应用下载时大图显示的图片url(必填)</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>此处填写内测应用的bundle identifier</string>
+				<key>bundle-version</key>
+				<string>此处填写内测应用版本号(必填)</string>
+				<key>kind</key>
+				<string>software</string>
+				<key>title</key>
+				<string>此处填写内测应用名称(必填)</string>
+				<key>subtitle</key>
+				<string>此处填写内测应用副标题(非必填)</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
